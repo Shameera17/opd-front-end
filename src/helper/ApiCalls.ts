@@ -65,7 +65,7 @@ export const createAppointment = async (token: any, data: any) => {
     );
     return response.data;
   } catch (err) {
-    return console.log(err);
+    return err;
   }
 };
 // 2.view
